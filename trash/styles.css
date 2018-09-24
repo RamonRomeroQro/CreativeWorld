@@ -1,0 +1,45 @@
+h1{
+	
+	text-align: center;
+		font-size: 40px;
+	margin-top: 10px;
+}
+
+h2{
+	text-align: center;
+		font-size: 35px;
+	
+}
+
+p{
+	text-align: left;
+}
+
+a{
+color: blue;
+	text-decoration: none;
+}
+
+
+a.menu{
+	color: #1116dc;
+	text-decoration: none;
+	text-align: center;
+	font-size: 30px;
+}
+
+.slide#uno{
+background-color: #000;
+}
+
+#lista{
+	margin: 10px;
+	font-size: 10px;
+}
+
+img {
+    width: auto;
+    height: 100%;
+}
+
+/*padding para p de 10px*/

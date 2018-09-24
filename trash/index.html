@@ -1,0 +1,125 @@
+<!doctype html>
+<html class="fsvs" lang="en">
+    <head>
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link href="Scripts/style.css" media="all" rel="stylesheet" type="text/css" />
+                <link href="Scripts/typed.js-master/main.css" media="all" rel="stylesheet" type="text/css" />
+
+        <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+        <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+                        <script src="Scripts/jquery-2.2.3.js"></script>
+
+        <script src="assets/js/bundle.js"></script>
+                <script src="Scripts/fsss.js"></script>
+
+        
+   
+        
+       
+        
+        
+        <script>
+        jQuery(document).ready(function($){
+            var slider = $.fn.fsvs({
+                autoPlay            : false,
+                speed               : 2000,
+                bodyID              : 'fsvs-body',
+                selector            : '> .slide',
+                mouseSwipeDisance   : 40,
+                afterSlide          : function(){},
+                beforeSlide         : function(){},
+                endSlide            : function(){},
+                mouseWheelEvents    : true,
+                mouseWheelDelay     : false,
+                mouseDragEvents     : true,
+                touchEvents         : true,
+                arrowKeyEvents      : true,
+                pagination          : true,
+                nthClasses          : 2,
+                detectHash          : true
+            });
+        });
+        </script>
+        
+        
+        
+        
+        
+             
+        <script src="Scripts/jquery-2.2.3.js"></script>
+<script src="Scripts/typed.js-master/js/typed.js"></script>
+<script>
+   
+  $(function(){
+      $(".elemento").typed({
+       strings: ["Esto es CreativeWorld"],
+        typeSpeed: 0
+      });
+  });
+</script>
+ <style>
+        /* code for animated blinking cursor */
+        .typed-cursor{
+            opacity: 1;
+            font-weight: 100;
+            -webkit-animation: blink 0.7s infinite;
+            -moz-animation: blink 0.7s infinite;
+            -ms-animation: blink 0.7s infinite;
+            -o-animation: blink 0.7s infinite;
+            animation: blink 0.7s infinite;
+        }
+        @-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-webkit-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-moz-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-ms-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-o-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+    </style>
+    </head>
+    <body>
+        <div id="fsvs-body">
+            <div class="slide">
+                <p>Slide 1</p>
+                <p>
+                    <a href="http://luke.sno.wden.co.uk/assets/images/tappy.png">
+                        
+
+
+        
+                        <img src="http://luke.sno.wden.co.uk/assets/images/tappy.png" alt="">
+                    </a>
+                </p>
+            </div>
+            <div class="slide">Slide 2
+                <div class="scrollable" style="background:grey; color: blue;">
+                    <div class="elemento"></div>
+                    <div class="typed-cursor"></div>
+                
+                
+                </div>
+            </div>
+            <div class="slide">Slide 3</div>
+            <div class="slide">Slide 4</div>
+        </div>
+    </body>
+</html>
